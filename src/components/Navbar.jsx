@@ -1,6 +1,11 @@
+
+
+
+
 import React, { useState } from 'react'
 import assets from '../assets/assets'
-import ThemeToggleBtn from './ThemeTogglebtn'
+import ThemeToggleBtn from './ThemeToggleBtn';
+
 
 const Navbar = ({ theme, setTheme }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false)
